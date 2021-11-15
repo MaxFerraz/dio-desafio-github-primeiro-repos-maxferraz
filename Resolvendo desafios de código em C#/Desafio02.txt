@@ -1,0 +1,23 @@
+using System;
+
+namespace _52._36_URI_1759 {
+    class Program {
+        static void Main(string[] args) {
+           
+            int N = 45;
+            int M = 18;
+            if((1 <= N) && (N <= 40)){
+              if((1 <= M) && (M <= 40)){
+                var pressao = N -M;
+                Console.WriteLine(pressao);  
+              }
+              else{
+                Console.WriteLine("Pressão da bomba incorreta");
+              }
+            }else{
+                Console.WriteLine("A Pressão precisa ser entre 1 a 40 Libras");
+            }
+            
+        }
+    }
+}
